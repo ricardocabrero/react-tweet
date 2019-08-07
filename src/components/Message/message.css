@@ -1,0 +1,61 @@
+.root {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 1em;
+    margin: .5em
+}
+
+.text {
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+.displayName {
+    font-weight: bold;
+    padding: .5em;
+}
+
+.userName {
+    color: #aaa
+}
+
+.date {
+    color: #aaa;
+    padding: .5em;
+    font-size: 12px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-start;
+    color:#ccc;
+}
+
+.icon {
+    margin-right: 3em;
+}
+
+.num {
+    font-size: 12px;
+    margin: 0 3em 0 .25em
+}
+
+.rtGreen {
+    color: #20883f;
+}
+
+.favYellow {
+    color: #e2c400;
+}

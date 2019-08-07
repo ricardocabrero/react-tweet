@@ -1,0 +1,17 @@
+.root{
+    display:flex;
+    background: #2d84cc;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    padding: 1em 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo{
+    margin: 0;
+    color:#fff;
+    font-size: 19px;
+    font-weight: normal;
+    letter-spacing: .05em;
+    font-family: Arial, Helvetica, sans-serif;
+}

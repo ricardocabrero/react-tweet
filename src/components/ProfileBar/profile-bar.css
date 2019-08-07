@@ -1,0 +1,52 @@
+.root{
+    display: flex;
+    margin: 1.2em 2em;
+    align-items: center;
+}
+
+@media(max-width:375px){
+    .root{
+        margin: 1.2em 1.5em;
+    }
+}
+
+@media(max-width:350px){
+    .root{
+        margin: 1.2em 1em;
+        flex-wrap: wrap;
+    }
+}
+
+.avatar{
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    margin-right: .5em;
+}
+
+.username{
+    color: #666;
+}
+
+.button{
+    background: #2d84cc;
+    color: #fff;
+    border: 1px solid #1f6fb1;
+    border-radius: 5px;
+    margin: 0 1em;
+    padding: .5em .75em;
+}
+
+.button + .button {
+    margin: 0; 
+}
+
+@media(max-width:350px){
+    .button{
+        margin-top: .5em;
+        margin-left: .25em;
+    }
+    .button + .button {
+        margin-top: .5em;
+    }
+}
